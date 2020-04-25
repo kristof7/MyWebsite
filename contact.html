@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrzysztofKampa-Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="index.html">Krzysztof Kampa</a>
+
+        <div>
+            <ul>
+                <li>
+                    <a href="index.html">Strona główna</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="contact.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Skontaktuj się ze mną</h1>
+        <p>
+            Mozesz to zrobic bezpośrednio albo skorzystaj z mojego formularza
+            kontaktowego
+        </p>
+    </header>
+
+    <main>
+        <form action="action" method="post" class="contact-from">
+            <div class="form">
+                <label for="name">Imie:</label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form">
+                <label for="services">Wybierz usługę:</label>
+                <select id="services">
+                    <option value="service1">Usługa 1</option>
+                    <option value="service2">Usługa 2</option>
+                    <option value="service3">Usługa 3</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="description">Wiadomość:</label>
+                <textarea name="description"></textarea>
+            </div>
+            <div class="form">
+                <button type="submit">
+                    Wyślij wiadomość
+                </button>
+            </div>
+        </form>
+
+        <div>
+            <div>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                    fermentum massa justo sit amet risus.
+                </p>
+                <a href="tel:111111111">
+                    Zadzwoń
+                </a>
+            </div>
+            <div>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                    fermentum massa justo sit amet risus.
+                </p>
+                <a href="mailto:krzysztofkampa7@gmail.com">
+                    Napisz Email
+                </a>
+            </div>
+            <div>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                    fermentum massa justo sit amet risus.
+                </p>
+                <a href="https://www.linkedin.com/in/krzysztof-kampa/"> Linkedin</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; copyright 2020</p>
+    </footer>
+
+</body>
+
+</html>
